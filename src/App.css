@@ -1,0 +1,131 @@
+.App {
+  text-align: left;
+  line-height: 5px;
+}
+.App .container .col .card .row .col-s3 {
+  line-height: 5px;
+}
+
+.App .container .col .card-panel{
+  height: 180px;
+}
+
+.App .container .col {
+  height: 200px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.my-color {
+  color: gray;
+  display: inline-flex;
+  vertical-align: top;
+}
+
+.my-text {
+  font-size: x-large;
+  text-align: center;
+}
+
+.my-text-detail {
+  font-size: large;
+}
+
+.font_image{
+  height: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.titulo-app {
+  background-color: white;
+  margin: 15px;
+  padding: 5px;
+  height: 75px;
+  
+  color: #707070;
+}
+
+.footer-app {
+  background-color: white;
+  margin: 5px 15px 15px 15px;
+  padding: 5px;
+  height: 95px;
+  
+  color: #707070;
+}
+
+.area-grid {
+  background-color: lightgray;
+  margin: 5px 15px 15px 15px;
+  padding: 15px;
+  height: 1078px;
+  border-radius: 2px;
+  -moz-box-shadow: 1px 1px 1px 2px #ccc;
+  -webkit-box-shadow: 1px 1px 1px 2px #ccc;
+  box-shadow: 1px 1px 1px 2px #0000001a;
+}
+
+.mybtn {
+  font-size: 25px;
+  color: #7cb0fd;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 3px double #7cb0fd;
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  font-weight: 300; 
+  font-style: italic;
+    
+}
+
+.total {
+  font-size: x-large;
+  padding-left: 25px;
+  margin-left: 15px;
+}
+
+
+
+
+.titulo-app div h1 {
+  margin: 6px 4px;
+  font-size: 20px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
